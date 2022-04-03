@@ -1,4 +1,4 @@
-### Assignment 3
+### Assignment 3 - Network Analysis
 # By Line Stampe-Degn Møller
 # Language Analytics, Cultural Data Science
 
