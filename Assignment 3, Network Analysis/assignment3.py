@@ -5,7 +5,7 @@
 ## USAGE:
 
 #To run this script:
-#python/python3 assigment3.py network_data/1H4.csv
+#python/python3 assignment3.py network_data/1H4.csv
 
 
 # IMPORTS
