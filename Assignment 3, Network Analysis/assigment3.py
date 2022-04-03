@@ -1,4 +1,6 @@
-### Assigment 3
+### Assignment 3
+# By Line Stampe-Degn Møller
+# Language Analytics, Cultural Data Science
 
 ## USAGE:
 
