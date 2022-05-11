@@ -17,7 +17,7 @@
 # system tools
 import os
 import sys
-sys.path.append(os.path.join("."))
+sys.path.append(os.path.join(".."))
 
 # data munging tools
 import pandas as pd
