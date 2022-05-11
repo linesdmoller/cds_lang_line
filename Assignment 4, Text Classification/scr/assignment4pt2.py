@@ -17,7 +17,7 @@
 # system tools
 import os
 import sys
-sys.path.append(os.path.join("..", "..", "..", "CDS-LANG"))
+sys.path.append(os.path.join(".."))
 
 # simple text processing tools
 import re
@@ -73,7 +73,7 @@ def pre_process_corpus(docs):
     return norm_docs
 
 ## DATA
-filename = os.path.join("..", "..", "..", "CDS-LANG", "toxic", "VideoCommentsThreatCorpus.csv")
+filename = os.path.join("in", "VideoCommentsThreatCorpus.csv")
 data = pd.read_csv(filename)
 
 # Check shape of data
