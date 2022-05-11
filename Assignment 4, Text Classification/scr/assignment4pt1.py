@@ -13,6 +13,9 @@
 
 ###########################################################
 
+## To run this script:
+### $ python3 scr/assignment4pt1.py
+
 ## PACKAGES
 # system tools
 import os
