@@ -22,7 +22,7 @@ Using the corpus of Fake vs Real news, write some code which does the following:
 
 ## METHODS:
 
-xx
+For this project, I use the NLP library, Spacy, to find what is known as named entities. I then use spacytextblob to calculate the sentiment score for a stretch of natural language.
 
 ## USAGE:
 In order to reporduce this project, one must first add the input dataset, "fake_or_real_news", to the 'in' folder in this project. One might also need to delete the blank file.
@@ -41,4 +41,4 @@ The output of this project is;
 - A png file of a gpe plot of the fake news (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment2/out/fake_news_gpe_plot.png)).
 - A png file of a gpe plot of the real news (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment2/out/real_news_gpe_plot.png)).
 
-xx
+The plots show that Russia, U.S. and Syria are among the highest ranked in spreading of fake news. On the oter hand, Iran, U.S. and Syria are the highest ranked in spreading of real news. The United states are plotted as separate GPEs ("U.S.", "US", "America", etc.) - if we were to bundle these together, the number of GPEs for The United States would be even higher, probably ranking them as NO. 1 on both the fake and the real news plot.
