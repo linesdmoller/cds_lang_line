@@ -5,18 +5,20 @@ By: Line Stampe-Degn Møller
 
 Contributors: None
 
-Link to this repository: (https://github.com/linesdmoller/cds_lang_line/tree/main/assignment3)
+Link to this repository: (https://github.com/linesdmoller/cds_lang_line/tree/main/assignment4)
 
 ## PROJECT DESCRIPTION:
-*This project is assignment 3 in the supplementary course, 'Language Analytics' in 'Cultural Data Science', at Aarhus University.*
-- Link to assignment description: (https://github.com/CDS-AU-DK/cds-language/blob/main/assignments/assignment3.md)
+*This project is assignment 4 in the supplementary course, 'Language Analytics' in 'Cultural Data Science', at Aarhus University.*
+- Link to assignment description: (https://github.com/CDS-AU-DK/cds-language/blob/main/assignments/assignment4.md)
 
 **Task outline - pt 1; classification with machine learning:**
+
 The first script should perform benchmark classification using standard machine learning approaches
 - This means CountVectorizer() or TfidfVectorizer(), LogisticRegression classifier
 - Save the results from the classification report to a text file
 
 **Task outline - pt 2; classification with deep learning:**
+
 The second script should perform classification using the kind of deep learning methods we saw in class
 - Keras Embedding layer, Convolutional Neural Network
 - Save the classification report to a text file
@@ -26,17 +28,20 @@ The second script should perform classification using the kind of deep learning 
 xx
 
 ## USAGE:
-In order to reporduce this project, one must first add the input dataset, "network_data", to the 'in' folder in this project. One might also need to delete the blank file.
-The dataset has been handed out by our professor and should be available to the examiner.
+In order to reporduce this project, one must first download the input dataset from the sign up link in this document; [Link](https://www.simula.no/sites/default/files/publications/files/cbmi2019_youtube_threat_corpus.pdf), and add the data to the 'in' folder in this project. One might also need to delete the blank file.
 
-The folder structure in the 'in' folder (with the file, "1H4.csv", as an example) should be: "in/network_data/1H4.csv".
+I presume the data has also been made available for th examiner by our professor.
+
+The folder structure in the 'in' folder should be: "in/toxic/VideoCommentsThreatCorpus.csv".
 
 **Run pt 1:**
+
 To run this script in the terminal, navigate to the folder outside the 'src' folder and run:
 
 python3 src/assignment4pt1.py
 
 **Run pt 1:**
+
 To run this script in the terminal, navigate to the folder outside the 'src' folder and run:
 
 python3 src/assignment4pt2.py
