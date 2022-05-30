@@ -12,27 +12,31 @@ Link to this repository: (https://github.com/linesdmoller/cds_lang_line/tree/mai
 - Link to assignment description: (https://github.com/CDS-AU-DK/cds-language/blob/main/assignments/assignment3.md)
 
 **Task outline:**
-Using the corpus of Fake vs Real news, write some code which does the following:
-- Split the data into two datasets - one of Fake news and one of Real news
-- For every headline
-   - Get the sentiment scores
-   - Find all mentions of geopolitical entites
-   - Save a CSV which shows the text ID, the sentiment scores, and column showing all GPEs in that text
-- Find the 20 most common geopolitical entities mentioned across each dataset - plot the results as a bar charts
+If the user enters a single filename as an argument on the command line:
+- Load that edgelist
+  - Perform network analysis using networkx
+  - Save a simple visualisation
+  - Save a CSV which shows the following for every node:
+    - name; degree; betweenness centrality; eigenvector_centrality
+- If the user enters a directory name as an argument on the command line:
+  - Do all of the above steps for every edgelist in the directory
+  - Save a separate visualisation and CSV for each file
 
 ## METHODS:
 
 xx
 
 ## USAGE:
-In order to reporduce this project, one must first add the input dataset, "fake_or_real_news", to the 'in' folder in this project. One might also need to delete the blank file.
+In order to reporduce this project, one must first add the input dataset, "network_data", to the 'in' folder in this project. One might also need to delete the blank file.
 The dataset has been handed out by our professor and should be available to the examiner.
 
-The folder structure in the 'in' folder should be: "in/tabular_examples/fake_or_real_news.csv".
+The folder structure in the 'in' folder (with the file, "1H4.csv", as an example) should be: "in/network_data/1H4.csv".
 
 To run this script in the terminal, navigate to the folder outside the 'src' folder and run:
 
-python3 src/assignment3.py
+python3 src/assignment3.py in/network_data/1H4.csv
+
+(NOTE: "network_data/1H4.csv" in the command line can be replaced with any file in the 'in' folder)
 
 ## DISCUSSION OF RESULTS:
 The output of this project is;
