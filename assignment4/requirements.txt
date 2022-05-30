@@ -1,0 +1,22 @@
+# Pt 1:
+os
+sys
+pandas
+sklearn
+warnings
+
+
+# Pt 2:
+os
+sys
+re
+tqdm
+unicodedata
+contractions
+bs4
+nltk
+pandas
+numpy
+tensorflow
+sklearn
+matplotlib
