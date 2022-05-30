@@ -11,7 +11,7 @@
 
 ## USAGE:
 # To run this script:
-# python3 src/assignment3.py
+# python3 src/assignment1.py
 
 ## In terminal, add:
 # pip install spacy
