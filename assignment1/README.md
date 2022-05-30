@@ -44,6 +44,13 @@ MI = 11.37 = log ( (24 * 96,263,399) / (1262 * 115 * 6) ) / .30103
 ## USAGE:
 In order to reporduce this project, one must first download the input dataset from here; [Link](https://github.com/computationalstylistics/100_english_novels), and add the data to the 'in' folder in this project. One might also need to delete the blank file.
 
+Using Conrad_Nostromo_1904.txt as an example of one of the novels, the folder structure should be: "in/100_english_novels/corpus/Conrad_Nostromo_1904.txt".
+
+In order to costumize the program to check another search term, window size and text file, the user can do the following:
+- Search term: Change the variable "keyword" on line 33.
+- Windom size: Change the variable "window_size" on line 35.
+- Text: Change the variable "txt" on line 42.
+
 To run this script in the terminal, navigate to the folder outside the 'src' folder and run:
 
 python3 src/assignment1.py
@@ -52,4 +59,10 @@ python3 src/assignment1.py
 The output of this project is;
 - A csv file containing a dataframe of the Mutual Information scores for each word (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment1/out/MI_scores.csv).
 
+According to the calculated MI scores, the collocates around the keyword "sailor" with the highest scores are:
+- mediterranean
+- dock
+- labourer
+- bawling
+- runaway
 
