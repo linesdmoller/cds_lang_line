@@ -24,7 +24,7 @@ If the user enters a single filename as an argument on the command line:
 
 ## METHODS:
 
-xx
+In this assignment, I am writing a general .py script which can be used for network analysis, using the library, networkx.
 
 ## USAGE:
 In order to reporduce this project, one must first add the input dataset, "network_data", to the 'in' folder in this project. One might also need to delete the blank file.
@@ -43,4 +43,4 @@ The output of this project is;
 - A csv file showing name, degree, betweenness centrality and eigenvector_centrality for every node (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment2/out/fake_news_dataframe.csv)).
 - A png file showing a visualisation of the ntwork analysis (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment3/out/network.png)).
 
-xx
+The plottet network shows, that all except two words are essentially connected. The two words, that are not included in the big cluster are "Archbishop" and "SirMichael".
