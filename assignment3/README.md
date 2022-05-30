@@ -40,9 +40,7 @@ python3 src/assignment3.py in/network_data/1H4.csv
 
 ## DISCUSSION OF RESULTS:
 The output of this project is;
-- A csv file containing a dataframe of the fake news (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment2/out/fake_news_dataframe.csv)).
-- A csv file containing a dataframe of the real news (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment2/out/real_news_dataframe.csv)).
-- A png file of a gpe plot of the fake news (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment2/out/fake_news_gpe_plot.png)).
-- A png file of a gpe plot of the real news (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment2/out/real_news_gpe_plot.png)).
+- A csv file showing name, degree, betweenness centrality and eigenvector_centrality for every node (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment2/out/fake_news_dataframe.csv)).
+- A png file showing a visualisation of the ntwork analysis (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment3/out/network.png)).
 
 xx
