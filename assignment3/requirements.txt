@@ -1,0 +1,11 @@
+os
+csv
+sys
+pandas
+collections
+itertools
+tqdm
+spacy
+nlp = spacy.load("en_core_web_sm")
+networkx
+matplotlib
