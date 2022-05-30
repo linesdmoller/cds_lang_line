@@ -25,7 +25,7 @@ The second script should perform classification using the kind of deep learning 
 
 ## METHODS:
 
-xx
+The overall project of the two assignments, pt 1 and pt 2, is about trying to see if we can predict whether or not a comment is a certain kind of toxic speech. For pt 1, I use a simple LogisticRegression classifier to provide make a solid benchmark classification. In pt 2, I use a convolutional Neural Network to create a classification model.
 
 ## USAGE:
 In order to reporduce this project, one must first download the input dataset from the sign up link in this document; [Link](https://www.simula.no/sites/default/files/publications/files/cbmi2019_youtube_threat_corpus.pdf), and add the data to the 'in' folder in this project. One might also need to delete the blank file.
@@ -51,4 +51,6 @@ python3 src/assignment4pt2.py
 The output of this project is;
 - A csv file containing a classification report from the machine learing approach in pt 1 (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment4/out/cl_report_pt1.txt)).
 - A csv file containing a classification report from the deep learing approach in pt 2 (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment4/out/cl_report_pt2.txt)).
-xx
+
+The two classifictaion reports show (not surprisingly), that the deep learning classification in pt 2 performs better than the benchmark classification in pt 1.
+The deep learning classification report (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment4/out/cl_report_pt2.txt)) shows an f1 score around 0.82. The benchmark classification report (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment4/out/cl_report_pt1.txt)) shows an f1 score around 0.72.
