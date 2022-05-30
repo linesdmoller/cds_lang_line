@@ -15,7 +15,7 @@
 # pip install tensorflow
 
 # To run this script:
-# python3 src/assignment4.pt1.py
+# python3 src/assignment4pt2.py
 
 
 # IMPORTS
