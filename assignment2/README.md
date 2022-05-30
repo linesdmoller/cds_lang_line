@@ -8,7 +8,7 @@ Contributors: None
 Link to this repository: (https://github.com/linesdmoller/cds_lang_line/tree/main/assignment2)
 
 ## PROJECT DESCRIPTION:
-*This project is assignment 1 in the supplementary course, 'Language Analytics' in 'Cultural Data Science', at Aarhus University.*
+*This project is assignment 2 in the supplementary course, 'Language Analytics' in 'Cultural Data Science', at Aarhus University.*
 - Link to assignment description: (https://github.com/CDS-AU-DK/cds-language/blob/main/assignments/assignment2.md)
 
 **Task outline:**
@@ -21,7 +21,6 @@ Using the corpus of Fake vs Real news, write some code which does the following:
 - Find the 20 most common geopolitical entities mentioned across each dataset - plot the results as a bar charts
 
 ## METHODS:
-The dataset used in this project stems from; (https://github.com/computationalstylistics/100_english_novels).
 
 xx
 
