@@ -57,7 +57,7 @@ python3 src/assignment1.py
 
 ## DISCUSSION OF RESULTS:
 The output of this project is;
-- A csv file containing a dataframe of the Mutual Information scores for each word (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment1/out/MI_scores.csv).
+- A csv file containing a dataframe of the Mutual Information scores for each word (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment1/out/MI_scores.csv)).
 
 According to the calculated MI scores, the collocates around the keyword "sailor" with the highest scores are:
 - mediterranean
