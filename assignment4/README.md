@@ -49,9 +49,6 @@ python3 src/assignment4pt2.py
 
 ## DISCUSSION OF RESULTS:
 The output of this project is;
-- A csv file containing a dataframe of the fake news (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment2/out/fake_news_dataframe.csv)).
-- A csv file containing a dataframe of the real news (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment2/out/real_news_dataframe.csv)).
-- A png file of a gpe plot of the fake news (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment2/out/fake_news_gpe_plot.png)).
-- A png file of a gpe plot of the real news (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment2/out/real_news_gpe_plot.png)).
-
+- A csv file containing a classification report from the machine learing approach in pt 1 (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment4/out/cl_report_pt1.txt)).
+- A csv file containing a classification report from the deep learing approach in pt 2 (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment4/out/cl_report_pt2.txt)).
 xx
