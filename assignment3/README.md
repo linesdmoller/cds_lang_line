@@ -43,4 +43,4 @@ The output of this project is;
 - A csv file showing name, degree, betweenness centrality and eigenvector_centrality for every node (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment2/out/fake_news_dataframe.csv)).
 - A png file showing a visualisation of the ntwork analysis (see [Link](https://github.com/linesdmoller/cds_lang_line/blob/main/assignment3/out/network.png)).
 
-The plottet network shows, that all except two words are essentially connected. The two words, that are not included in the big cluster are "Archbishop" and "SirMichael".
+The plottet network shows, that all except two words are essentially connected. The two words that are not included in the big cluster are "Archbishop" and "SirMichael".
