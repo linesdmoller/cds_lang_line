@@ -1,0 +1,9 @@
+os
+pandas
+collections
+tqdm
+numpy
+spacy
+nlp = spacy.load("en_core_web_sm")
+spacytextblob
+matplotlib
